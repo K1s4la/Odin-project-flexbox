@@ -1,3 +1,13 @@
 body{
     margin:0px;
 }
+.header-container{
+    width:100%;
+    background-color:rgba(69, 81, 107);
+}
+.top{
+    display:flex;
+}
+.logo{
+    margin-right:auto;
+}
