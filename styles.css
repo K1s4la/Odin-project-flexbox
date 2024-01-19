@@ -7,7 +7,14 @@ body{
 }
 .top{
     display:flex;
+    justify-content: space-evenly;
+    
 }
 .logo{
-    margin-right:auto;
+    margin-right:800px;
+}
+.sign,.logout,.about{
+    color:white;
+    align-self:center;
+    
 }
