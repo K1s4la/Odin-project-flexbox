@@ -4,17 +4,30 @@ body{
 .header-container{
     width:100%;
     background-color:rgba(69, 81, 107);
+    margin:0px; padding:0px;
+    border:1px solid white;
 }
 .top{
     display:flex;
-    justify-content: space-evenly;
-    
+    width:100%;
+    justify-self:center;
+    border:1px solid black;
+    justify-content: flex-start;
 }
 .logo{
-    margin-right:800px;
+    width:50px; height:50px;
+    justify-content: center;
 }
-.sign,.logout,.about{
-    color:white;
-    align-self:center;
-    
+.middle-top{
+    display:flex;
+    width:15%;
+    margin:auto;
+    justify-content: center;
 }
+.search{
+    width:100%;
+    border-radius:10px;
+    border:none;
+    /* this is the size of the alloted percentage of the container*/
+}
+
