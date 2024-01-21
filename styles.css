@@ -38,16 +38,16 @@ body{
 }
 .right-top-links{
     display:flex;
-    border:1px solid red;
     justify-content: space-evenly;
     width:20%;
+    border-left:solid white 2px;
     
 }
 .sign,.logout,.about{
     align-self:center;
     color:white;
 }
-/*                             Second layer                         */
+/*            1                Second layer            1             */
 .second-layer{
     width:100%;
     background-color:rgba(31, 40, 61);
@@ -59,16 +59,18 @@ body{
     display:flex;
     justify-content:flex-start;
     width:50%;
-    border:1px solid white;
     color:white;
     flex-direction: column;
 }
 .left-side-one > h1{
     align-self:center;
+    border-bottom:4px solid white;
 }
 .left-side-one > p{
     align-self:center;
-    margin:45px;
+    margin:25px;
+    
+    
 }
 .left-side-one > a{
     align-self:center;
@@ -83,7 +85,7 @@ body{
 .right-side{
     display:flex;
     width:50%;
-    border:1px solid red;
+    border-left:4px dotted white;
     align-items: center;
     justify-content:center ;
     flex-direction:column;
@@ -92,4 +94,5 @@ body{
 
 .right-side > img{
     width:200px; height:200px;
+    border:5px solid white;
 }
