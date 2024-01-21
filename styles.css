@@ -106,4 +106,14 @@ body{
 }
 .four-boxes-imgs{
     flex-direction: column;
+    border-right:3px solid black;
+    
+}
+.four-boxes-imgs > img{
+    border:rgb(58, 61, 202) 4px solid;
+    border-radius: 8px;
+}
+.four-boxes-imgs > p{
+    align-items: center;
+    width:55%;
 }
