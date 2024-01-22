@@ -103,6 +103,7 @@ body{
     border:1px solid black;
     display:flex;
     justify-content: space-evenly;
+    
 }
 .four-boxes-imgs{
     flex-direction: column;
@@ -112,8 +113,26 @@ body{
 .four-boxes-imgs > img{
     border:rgb(58, 61, 202) 4px solid;
     border-radius: 8px;
+    width:75px; height:75px;
+   
+
 }
 .four-boxes-imgs > p{
     align-items: center;
     width:55%;
+}
+#cont-1{
+    width:15%;
+    
+}
+#cont-4{
+    width:15%;
+    border:none;
+}
+/*             4                   Fourth Layer                     4                         */
+.fourth-container{
+    background-color:gray;
+    width:65%; border-radius:10px;
+    height:220px;
+    margin:auto;
 }
