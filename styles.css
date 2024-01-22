@@ -1,6 +1,5 @@
 body{
     margin:0px;
-    padding:0px;
     font-family: sans-serif;
 }
 .header-container{
@@ -204,6 +203,22 @@ body{
     border-radius: 4px;
     text-decoration: none;
     padding:6px;
+}
+.footer{
+    display: flex;
+    margin: auto;
+    width:100%;
+    background-color:rgba(78, 79, 79);
+    justify-content: center;
+    
+    
+    
+}
+
+.footer-info{
+    text-decoration: underline;
+    color:white;
+    border:1px solid white;
 }
 
 
