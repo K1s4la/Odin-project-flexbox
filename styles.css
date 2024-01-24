@@ -179,12 +179,12 @@ body{
    height:250px;
 }
 .please-sign-up{
-    width:45%;
+    width:75%;
     background-color:rgba(84, 137, 196);
     border-radius:10px;
     margin: auto;
     color:white;
-    padding:20px;
+    padding:5px;
     display:flex;
     flex-direction: column;
     
@@ -218,7 +218,6 @@ body{
 .footer-info{
     text-decoration: underline;
     color:white;
-    border:1px solid white;
 }
 
 
